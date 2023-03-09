@@ -125,7 +125,7 @@
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="FirebaseMessaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
+        <pod name="FirebaseMessaging" spec="~> 8.15.0" />
       </pods>
     </podspec>
   </platform>
