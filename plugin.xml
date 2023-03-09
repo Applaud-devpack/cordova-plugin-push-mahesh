@@ -120,15 +120,14 @@
     <header-file src="src/ios/PushPlugin.h"/>
 
     <framework src="PushKit.framework"/>
-    <framework src="FirebaseMessaging" type="podspec" spec="$IOS_FIREBASE_MESSAGING_VERSION"/>
-    <!-- <podspec>
+    <podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
+        <pod name="FirebaseMessaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
       </pods>
-    </podspec> -->
+    </podspec>
   </platform>
 
   <platform name="windows">
