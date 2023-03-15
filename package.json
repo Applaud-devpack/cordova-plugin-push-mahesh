@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-push-mahesh",
-  "version": "0.0.1",
+  "name": "cordova-plugin-applaudpush",
+  "version": "1.0.0",
   "description": "Register and receive push notifications.",
   "scripts": {
     "build": "babel src/js --out-dir www",
@@ -11,18 +11,19 @@
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "test": "npm run build && npm run lint && npm run jasmine"
   },
-  "repository": "github:havesource/cordova-plugin-push",
+  "repository": "github:Applaud-devpack/cordova-plugin-push-mahesh",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android",
     "cordova-windows",
-    "cordova-browser"
+    "cordova-browser",
+    "applaud"
   ],
   "author": "Mahesh",
   "license": "MIT",
-  "bugs": "https://github.com/havesource/cordova-plugin-push/issues",
-  "homepage": "https://github.com/havesource/cordova-plugin-push#readme",
+  "bugs": "https://github.com/Applaud-devpack/cordova-plugin-push-mahesh",
+  "homepage": "https://github.com/Applaud-devpack/cordova-plugin-push-mahesh",
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
@@ -57,7 +58,7 @@
   },
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-push-mahesh",
+    "id": "cordova-plugin-applaudpush",
     "platforms": [
       "ios",
       "android",
